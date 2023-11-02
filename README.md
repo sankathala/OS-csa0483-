@@ -1,3 +1,4 @@
+
 # OS-csa0483-
 
 #1-> SYSTEM CALL INVOKING:-
@@ -128,6 +129,28 @@ ALGORITHAM STEPS:-
   d. Repeat steps a-c for the next process in the sorted array.
 
 9)Print a vertical bar to mark the end of the Gantt Chart.
+
+#5-> WAITING PROCESS WITH THE HIGHEST PRIORITY TO EXECUTE NEXT:-
+
+ALGORITHM STEPS:-
+
+1)Initialize a data structure to store processes and their priorities (e.g., an array or a priority queue).
+
+2)Insert processes into the data structure with their respective priorities.
+
+3)Build the data structure into a max-heap (or equivalent priority structure).
+
+4)Repeat the following steps until there are no more processes in the data structure:
+
+  a. Extract the process with the highest priority from the data structure.
+  
+  b. Execute the extracted process.
+  
+  c. If there are more processes in the data structure, go back to step 4a.
+  
+5)Finish when all processes have been executed.
+
+
 
 
 
